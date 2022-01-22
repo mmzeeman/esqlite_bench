@@ -1,0 +1,13 @@
+%% -*- mode: erlang -*-
+{application, esqlite_bench,
+ [{description, "Benchmarc for Esqlite"},
+  {vsn, "git"},
+  {modules, []},
+  {registered, []},
+  {env, []},
+  {applications, [kernel, stdlib, esqlite]},
+  {licenses, ["Apache-2.0"]},
+  {links, [
+    {"GitHub", "https://github.com/mmzeeman/esqlite_bench"}
+  ]}
+ ]}.
